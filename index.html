@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="heatMap">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TransLoc Interactive Heat Map</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+  </head>
+  <body ng-controller="MapController as map">
+    <script type="text/javascript" src="angular.min.js"></script>
+    <p>{{map.product.country}}</p>
+    <p>{{map.product.region}}</p>
+    <p>{{map.product.city}}</p>
+    <p>{{map.product.postalCode}}</p>
+    <p>{{map.product.latitude}}</p>
+    <p>{{map.product.longitude}}</p>
+    <p>{{map.product.metroCode}}</p>
+    <p>{{map.product.areaCode}}</p>
+    <h1>{{"Hello, " + "Angular!"}}</h1>
+
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
